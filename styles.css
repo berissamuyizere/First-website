@@ -2,6 +2,9 @@
     padding: 15px;
     background-color: rgb(96, 124, 148);
     border: 1px solid;
+    /* width: 70%; */
+    margin-left: 55px;
+    
 }
 .container{
     border: 1px solid;
@@ -33,5 +36,11 @@
 .introduction{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 10%;
+}
+.home-decor{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 20%;
+    gap: 10%;
 }
