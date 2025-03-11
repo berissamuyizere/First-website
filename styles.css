@@ -133,4 +133,7 @@ figure{
     .icon-logo , .collection, .introduction{
         flex-wrap: wrap;
     }
+    .figure img{
+        width:2100%
+    }
 }
