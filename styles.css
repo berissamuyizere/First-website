@@ -81,6 +81,12 @@
 .values{
     font-size: 30px;
 }
+.icon-logo{
+    display: flex; justify-content: center; gap: 10%; margin-top: 10%;
+}
+.img-container{
+    padding: 20px; background-color: #474747; padding: 30px; border-radius: 5%;
+}
 .shape{
     width: 600px;
     background-color: #474747;
@@ -134,6 +140,15 @@ figure{
         flex-wrap: wrap;
     }
     .figure img{
-        width:2100%
+        
+    }
+    .shop-now{
+        width: 60%;
+    }
+    .vase-person{
+        width: 60vw;
+    }
+    .start-now{
+        width: 29%;
     }
 }
