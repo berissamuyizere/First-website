@@ -1,22 +1,17 @@
 .over-all-container{
     padding: 15px;
-    background-color: rgb(96, 124, 148);
-    border: 1px solid;
-    /* width: 70%; */
     margin-left: 55px;
+    width: 80%;
     
 }
-.container{
-    border: 1px solid;
-    background-color: beige;
-   padding: 5px;
-}
+
 
 .header-content {
     display: flex; 
-    align-items: center; 
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10%;
     padding: 10px; 
+    
 }
 
 .header-content nav {
@@ -35,7 +30,8 @@
 }
 .introduction{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: -7%;
     margin-top: 10%;
 }
 .home-decor{
@@ -46,7 +42,27 @@
 }
 .stylish-pieces{
     display: flex;
+    justify-content: center;
     margin-top: 10%;
-    margin-left: 20%;
-    /* gap: 10%; */
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 8%;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.top-icons{
+    background-color: black;
+    padding: 10%;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 50%;
+}
+
+.top-icons i{
+    color: white;
 }
