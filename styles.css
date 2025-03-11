@@ -32,7 +32,7 @@
     display: flex;
     justify-content: center;
     gap: -7%;
-    margin-top: 10%;
+    margin-top: 4%;
 }
 .home-decor{
     display: flex;
@@ -61,8 +61,70 @@
     padding: 10%;
     border-bottom-left-radius: 30%;
     border-top-left-radius: 50%;
+    /* transform: rotate(50deg); */
 }
 
 .top-icons i{
     color: white;
+}
+.logo-container{
+    display: flex; 
+    justify-content: space-around;
+     margin-top: 6%; 
+}
+.logo{
+    width: 10%;
+}
+.values-container{
+    display: flex; gap: 23px;
+}
+.values{
+    font-size: 30px;
+}
+.shape{
+    width: 600px;
+    background-color: #474747;
+    height: 500px;
+    right: 0;
+    top: 0%;
+    border-radius: 50px;
+    transform: rotate(-35deg);
+    z-index: -1;
+    position: absolute;
+    margin-top: -10%;
+    margin-right: -10%;
+    overflow: hidden;
+}
+
+#play-icon{
+    font-size: 13px;
+     background-color: rgb(156, 155, 153);
+    margin-left: 3%; 
+    width: 2%;
+    border-radius: 4px;
+    padding: 7px;
+        margin-left: 5px;
+}
+.start-now{
+    padding: 25px; border: none; background-color: rgb(59, 58, 58); border-radius: 37px; width: 19%; color: white;
+}
+.collection{
+    display: flex; justify-content:center; gap: 10%; width: 100%;
+}
+.collection-section{
+    display: flex; flex-direction: column;
+}
+.best-saller{
+    display: flex; justify-content: center; gap: 67%; margin-top: 10%;
+}
+.collection img{
+    margin-left: 20px;
+}
+.shop-now{
+    padding: 25px; border-radius: 37px; width: 23%; color: black; border-color: rgb(104, 102, 102);
+}
+@media screen  and (min-width: 320px){
+    .icon-logo , .collection, .introduction{
+        flex-wrap: wrap;
+    }
 }
