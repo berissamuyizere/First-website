@@ -120,6 +120,12 @@
 .collection img{
     margin-left: 20px;
 }
+
+figure{
+   /* max-width: 25%; */
+   width: 8%;
+   height: 10%;
+}
 .shop-now{
     padding: 25px; border-radius: 37px; width: 23%; color: black; border-color: rgb(104, 102, 102);
 }
